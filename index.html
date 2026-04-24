@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Classroom </title>
+    <link rel="icon" type="image/x-icon" href="https://classroom.google.com/favicon.ico">
+</head>
+<body>
+    <h1>Unblocked Games</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: black;
+            color: white;
+        }
+        .btn {
+            background-color: #0a0a0a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.4s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .btn img {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .btn:hover {
+        background-color: #333;
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+        .container-games {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            margin-top: 50px;
+            grid-auto-rows: 200px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <div class="container-games">
+        <a href="games/1v1.LoL.html" class="btn"><img src="Assets/58.png" alt="Game 1"><span>1v1.lol</span></a>
+        <a href="games/Ultrakill.html" class="btn"><img src="assets/196.png" alt="Game 2"><span>Ultra Kill</span></a>
+        <a href="games/Ice Dodo.html" class="btn"><img src="assets/Ice dodo.png" alt="Game 3"><span>Ice Dodo</span></a>
+        <a href="Games/Bowmasters.html" class="btn"><img src="assets/0.png" alt="Game 4"><span>Bowmasters</span></a>
+        <a href="Games/Geometry Dash.html" class="btn"><img src="assets/GD.png" alt="Game 5"><span>Geometry Dash</span></a>
+        <a href="games/People Playground.html" class="btn"><img src="assets/194-m.png" alt="Game 6"><span>People Playground</span></a>
+        <a href="games/Terraria.html" class="btn"><img src="assets/669.png" alt="Game 7"><span>Terraria</span></a>
+        <a href="games/War The Knights.html" class="btn"><img src="assets/284.png" alt="Game 8"><span>War The Knights</span></a>
+        <a href="games/2048 Merge Run.html" class="btn"><img src="assets/375.png" alt="Game 9"><span>2048 Merge Run</span></a>
+        <a href="games/Minecraft 1.12.2.html" class="btn"><img src="assets/182.png" alt="Game 10"><span>Minecraft 1.12.2</span></a>
+        <a href="games/Office Fight.html" class="btn"><img src="assets/402.png" alt="Game 11"><span>Office Fight</span></a>
+        <a href="games/Idle Mining Empire.html" class="btn"><img src="assets/364.png" alt="Game 12"><span>Idle Mining Empire</span></a>
+        <a href="games/Game 13.html" class="btn"><img src="assets/207.png" alt="Game 13"><span>Game 13</span></a>
+    </div>
+    <button class="taskbar"> Taskbar </button>
+    <div>
+    <a>
+    <style>
+        .taskbar {
+            position:fixed;
+            background: #121212;
+            color: #121212;
+            border: none;
+            border-radius: 10px;
+            align-self: center;
+            width: 390px;
+            height: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 10px;
+            font-display: none;
+            drop-shadow: 100px 100px 100px #000;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
+<img src="Icons/Games.png"
+     alt="Games"
+     class="games"
+     style="position: fixed; left: 615px; bottom: 12px; width: 55px; height: 55px; cursor: pointer;"
+     onclick="window.location.href='games.html'">
+    <img src="Icons/Home.png"
+         alt="Home"
+         class="home"
+         style="position: fixed; left: 550px; bottom: 10px; width: 60px; height: 60px; cursor: pointer;"
+         onclick="window.location.href='Apps.html'">
+
+    </a>
+    </div>
+    <style>
+        .home:hover {
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+        .games:hover {
+            transition: 0.3s;
+            transform: scale(1.2);
+        }
+    </style>
+</body>
+</html>
